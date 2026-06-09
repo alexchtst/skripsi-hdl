@@ -1,0 +1,16 @@
+konfigurasi ip fifo generator
+
+interface type: Native
+fifo implementatio: independent clock block ram
+read mode: fwft (first word fall through)
+write width: 16
+write depth: 1028
+read width: 16
+almost full flag [check]
+almost empty flag [check]
+overflow [check]
+valid flag [check]: active high
+underflow flag [check]: active high
+
+write data count (synchronized with write clk) [check] (10)
+read data count (synchronized with read clk) [check] (10)

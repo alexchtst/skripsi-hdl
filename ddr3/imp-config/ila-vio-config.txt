@@ -1,0 +1,24 @@
+probe0 : axi_video_read_master.debug_beat_count
+probe1 : axi_video_write_master.debug_beat_count
+probe2 : axi_video_write_master.debug_burst_count
+probe3 : axi_video_read_master.debug_burst_count
+probe4 : base_address_control.debug_error_latched
+probe5 : base_address_control.debug_burst_count
+probe6 : axi_video_read_master.debug_first_frame_valid
+probe7 : axi_video_write_master.debug_pixel_count
+probe8 : base_address_control.debug_read_buffer_index
+probe9 : base_address_control.debug_read_frame_count
+probe10 : axi_video_write_master.debug_state
+probe11 : axi_video_read_master.debug_state
+probe12 : base_address_control.debug_state
+probe13 : base_address_control.debug_write_buffer_index
+probe14 : base_address_control.debug_write_frame_count
+probe15 : async_fifo_read.dout
+
+probe_out0 : async_fifo_read.rd_en
+probe_out1 : async_fifo_write.wr_en
+probe_out2 : async_fifo_write.din
+probe_out3 : base_address_control.enable
+probe_out4 : async_fifo_write.write_start_allowed
+probe_out5 : async_fifo_write.read_start_allowed
+probe_out6 : -
