@@ -5,7 +5,8 @@ set -euo pipefail
 SIM_OUT="sim_fc.out"
 TOP_MODULE="tb_fc_dump"
 
-MEM_ROOT="mem"
+# MEM_ROOT="mem"
+MEM_ROOT="mem-test"
 CSV_ROOT="csv-results"
 
 echo "============================================"

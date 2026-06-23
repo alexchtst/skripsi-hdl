@@ -19,7 +19,8 @@ SRC_FILES=(
   block1_fifo_shift_register_pool.v
 )
 
-MEM_ROOT="mem"
+# MEM_ROOT="mem"
+MEM_ROOT="mem-test"
 CSV_ROOT="csv-results"
 
 # ============================================================

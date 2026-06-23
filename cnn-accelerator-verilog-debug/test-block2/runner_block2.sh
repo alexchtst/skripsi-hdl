@@ -9,7 +9,8 @@ set -euo pipefail
 SIM_OUT="sim2.out"
 TOP_MODULE="tb_block2_dump"
 
-MEM_ROOT="mem"
+# MEM_ROOT="mem"
+MEM_ROOT="mem-test"
 CSV_ROOT="csv-results"
 
 # ============================================================

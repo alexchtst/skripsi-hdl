@@ -5,7 +5,8 @@ set -euo pipefail
 SIM_OUT="sim_argmax_only.out"
 TOP_MODULE="tb_argmax_dump"
 
-MEM_ROOT="mem"
+# MEM_ROOT="mem"
+MEM_ROOT="mem-test"
 CSV_ROOT="csv-results"
 
 echo "============================================"
